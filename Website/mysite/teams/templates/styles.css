@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Modrnt Urban";
+    src: url('fonts/Modrnt_urban-Regular_ok.ttf') format('truetype');
+}
+
+nav {
+    justify-content: space-between;
+    padding: 5px 10px;
+    text-align: center;
+    position: relative;
+    background-color: hsl(210, 20%, 60%);
+}
+
+.nav-bar-horizontal {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.nav-bar-horizontal a {
+    font-family: "Modrnt Urban";
+    font-size: large;
+}
+.nav-bar-horizontal a:hover {
+    background-color: hsl(345, 20%, 60%);
+    font-family: "Modrnt Urban"
+}
+
+body {
+    margin: 0
+}
